@@ -1,0 +1,23 @@
+{
+  "name": "ghost-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "dev": "nodemon bot.js"
+  },
+  "keywords": [],
+  "author": "Pog",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.7.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.9.2",
+    "dotenv": "^10.0.0",
+    "mongoose": "^6.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
